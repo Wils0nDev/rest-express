@@ -39,3 +39,16 @@ Puntualmente veremos:
 
 
 La idea es dejar las bases de todo el servidor bien organizado, para después conectar una base de datos en la siguiente sección e implementar la arquitectura a su totalidad.
+
+
+3ra parta
+
+Temas puntuales de la sección
+Esta sección veremos:
+
+- Conectar Postgres a nuestros endpoints : lo hacmoes con la orm de Prisma -- prisma/schema.prisma
+- DTOs Pattern (Data Transfer Objects) : Objeto de transferencia de datos
+- Aprovisionar Postgres en la nube
+- Desplegar aplicación
+
+Es una sección donde aprenderemos de forma tradicional, como realizar las interacciones con la base de datos, pero sin aplicar arquitectura limpia, lo haremos de forma ordenada pero sencillas, que es como comúnmente ustedes lo verán allá afuera, y luego en la siguiente sección aplicaremos la arquitectura en su totalidad.

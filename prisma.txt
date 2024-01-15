@@ -1,0 +1,11 @@
+1- install prisma 
+npm install prisma --save-dev 
+
+2- install prisma postgresql
+npx prisma init --datasource-provider
+
+3 - crear modelo
+
+4- migrar el modelo a bd
+npx prisma migrate dev --name init 
+

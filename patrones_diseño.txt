@@ -1,0 +1,17 @@
+DTO :
+    - DTO significa objeto de transferencia de datos. Como sugiere el nombre, un DTO es un objeto creado para transferir datos.
+
+    - un DTO es un patrón de diseño que se utiliza para transferir datos entre diferentes capas de una aplicación.
+
+    - Esto ayuda a reducir la cantidad de datos que se deben transferir y 
+    mejora el rendimiento de la aplicación al evitar la transferencia de información innecesaria.
+
+Cómo utilizar un DTO
+Una DTO debería contener sólo datos, no lógica empresarial. Es algo simple y pequeño que debería realizar una sola tarea.
+
+Un buen DTO :
+
+Minimizar el texto repetitivo: Escribirás cada uno nuevo.
+Sea fácil de crear: Los DTO no deberían ser tan complicados como para que te cueste escribirlos. 
+(Un código como este es fácil de descifrar).
+Sea legible: Cualquiera debería poder analizar su código.
