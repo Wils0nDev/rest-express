@@ -10,8 +10,8 @@ export class TodoRoutes {
 
     static get routes(): Router {
 
-        const datasource = new TodoDataSource()
-        const todoRepository = new TodoRepositoryImpl(datasource)
+        const datasource = new TodoDataSource() //implementacion
+        const todoRepository = new TodoRepositoryImpl(datasource) //Repository implementacion que llama a mi datasource
         const router = Router();
         const todoController = new TodosController(todoRepository);
 

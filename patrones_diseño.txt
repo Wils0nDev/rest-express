@@ -14,4 +14,8 @@ Un buen DTO :
 Minimizar el texto repetitivo: Escribirás cada uno nuevo.
 Sea fácil de crear: Los DTO no deberían ser tan complicados como para que te cueste escribirlos. 
 (Un código como este es fácil de descifrar).
-Sea legible: Cualquiera debería poder analizar su código.
+Sea legible: Cualquiera debería poder analizar su código
+
+Repository
+DataSource
+

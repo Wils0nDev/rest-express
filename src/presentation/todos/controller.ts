@@ -14,6 +14,7 @@ export class TodosController {
 
   public getTodos = (req: Request, res: Response) => {
 
+    //mis casos de uso llaman a los repositorios
     new GetTodos(this.todoRepository).execute()
     .then(todos => res.json(todos))
     .catch(error => res.status(400).json({error}));
